@@ -1,0 +1,26 @@
+[
+    {
+        "request_id": "91db3058-5aa5-450e-a60c-835211bbc24f",
+        "timestamp": "2026-06-07 08:25:52.041283",
+        "original_input": "Hi my name is Ganesh. My account number is 6948487877.Help me reset banking password ",
+        "masked_input": "Hi my name is Ganesh. My account number is [MASKED_ACCOUNT].Help me reset banking password ",
+        "pii_detected": {
+            "account_number": true,
+            "email": false,
+            "phone": true
+        },
+        "compliance_status": "APPROVED"
+    },
+    {
+        "request_id": "8f67f661-da90-452b-913b-69f62e364bb1",
+        "timestamp": "2026-06-07 08:27:07.723567",
+        "original_input": "My email is ganesh@gmail.com and my phone number is 9876543210 ",
+        "masked_input": "My email is [MASKED_EMAIL] and my phone number is [MASKED_ACCOUNT] ",
+        "pii_detected": {
+            "account_number": true,
+            "email": true,
+            "phone": true
+        },
+        "compliance_status": "APPROVED"
+    }
+]
